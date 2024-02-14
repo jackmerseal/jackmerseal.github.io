@@ -13,34 +13,32 @@
 <body>
   <!-- HEADER -->
   <header class="header">
-
     <img alt="" src="headshot.jpeg" class="header-logo">
     <h1 class="header-text">Web Portfolio</h1>
-    <form method="get" action="search.html" class="header-searchform">
-      <input type="search" placeholder="search" class="header-searchbox">
-    </form>
-    </header>
-
-    <!-- NAV -->
-    <nav class="navbar">
-      <ul class="navbar-menu">
-      <li class="navbar-link">
-        <a href="index.html">Portfolio</a>
-      </li>
-      <li class="navbar-link">
-        <a href="aboutme.html">About Me</a>
-      </li>
-      <li class="navbar-link">
-        <a href="resume.html">Resume</a>
-      </li>
-      <li class="navbar-link">
-        <a href="contact.html">Contact Me</a>
-      </li>
-      <li class="navbar-link">
-        <a href="coursework.html">Coursework</a>
-      </li>
-      </ul>
+    <nav class="navbar navbar-expand navbar-expand-lg navbar-expand-xl navbar-toggleable bg-success text-light border-bottom box-shadow mb-3">
+      <div class="container">
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+        <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+                <a class="navbar-link text-info" href="index.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="navbar-link text-info" href="aboutme.html">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="navbar-link text-info" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+                <a class="navbar-link text-info" href="contact.html">Contact Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="navbar-link text-info" href="coursework.html">Coursework</a>
+            </li>
+        </ul>
+    </div>
+      </div>
     </nav>
+    </header>
 
 <!-- MAIN -->
 
@@ -48,18 +46,56 @@
   <br>
   <h1>Coursework</h1>
   <h2>These are each of the major projects I have worked on involving the skills I learned.</h2>
-  <a href="midterm/index.html" target="_blank">
-    <button class="btn btn-primary">Law Day Run</button>
-  </a>
-  <a href="https://www.youtube.com/watch?v=El7o80Z-vYU">
-    <button class="btn btn-primary">First Year - First Semester Final Project - CRUD Operations using HTML, CSS & JavaScript</button>
-  </a>
-  <a href="https://www.youtube.com/watch?v=CpqDx5FWevM">
-    <button class="btn btn-primary">First Year - Second Semester Final Project - CRUD Operations Using C#</button>
-  </a>
-  <a href="https://www.youtube.com/watch?v=vcOt8JYq4Yk">
-    <button class="btn btn-primary">Second Year - First Semester Final Project - CRUD Operations using Databases</button> 
-  </a>
+  <div class="container">
+    <div class="row">
+    <div class="col-sm-12 col-md-9 col-lg-6 col-xl-6">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <a href="midterm/index.html" target="_blank">
+          <button class="btn btn-primary">Law Day Run</button>
+          </a>
+          <p class="card-text">Midterm Project - Redesign for Race website using HTML, CSS & JavaScript</p>
+        </div>  
+      </div>
+    </div>
+    
+  <div class="col-sm-12 col-md-9 col-lg-6 col-xl-6">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <a href="https://www.youtube.com/watch?v=El7o80Z-vYU">
+          <button class="btn btn-primary">First Year - First Semester Final Project</button>
+        </a>
+        <p class="card-text">CRUD Operations using HTML, CSS & JavaScript</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="container">
+    <div class="row">
+    <div class="col-sm-12 col-md-9 col-lg-6 col-xl-6">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <a href="https://www.youtube.com/watch?v=CpqDx5FWevM">
+            <button class="btn btn-primary">First Year - Second Semester Final Project</button>
+          </a>
+          <p class="card-text">CRUD Operations using C#</p>
+        </div>  
+      </div>
+    </div>
+    
+  <div class="col-sm-12 col-md-9 col-lg-6 col-xl-6">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <a href="https://www.youtube.com/watch?v=vcOt8JYq4Yk">
+          <button class="btn btn-primary">Second Year - First Semester Final Project</button> 
+        </a>
+        <p class="card-text">CRUD Operations with Databases, User Authentication and Authorization using HTML, CSS & JavaScript</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
 <div class="clearfix"></div>
 </main>
 
