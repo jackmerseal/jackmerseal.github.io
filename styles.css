@@ -52,12 +52,12 @@ li {
   padding: 0.5em;
 }
 
-.header-account, .header-cart {
+.header-account,
+.header-cart {
   width: 50px;
   height: 50px;
   margin: 5px;
 }
-
 
 .navbar-menu {
   display: flex;
@@ -83,7 +83,8 @@ li {
   color: white;
 }
 
-.navbar-link:hover, .navbar-link:focus {
+.navbar-link:hover,
+.navbar-link:focus {
   background-color: grey;
 }
 
@@ -128,18 +129,22 @@ ul {
   color: white;
 }
 
+li {
+  color: black;
+}
+
 .container {
   display: flex;
   align-content: center;
   margin: 0 auto;
 }
 
-
 .footer {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   background-color: darkblue;
+  color: white;
   padding: 1em;
 }
 
@@ -147,7 +152,6 @@ ul {
   flex: 1 1 auto;
   text-align: center;
 }
-
 
 main .sections {
   background-color: olive;
@@ -158,22 +162,16 @@ main .sections {
   text-align: center;
 }
 
-
-main .sections h2, p, ul, li {
+main .sections h2,
+p,
+ul,
+li {
   text-align: center;
-  list-style: none;
   margin: 0 auto;
 }
 
 .list-group {
   display: inline-block;
-}
-
-footer {
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 0.5rem;
 }
 
 .card {
@@ -184,6 +182,44 @@ footer {
   clear: both;
 }
 
+@media only screen and (max-width: 2400px) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-inline-start: 3rem;
+    margin-inline-end: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .header-searchform {
+    order: 1;
+    margin: 0;
+  }
+  .header-logo {
+    width: 50px;
+    height: 50px;
+  }
+  .header-text {
+    flex-grow: 1;
+  }
+  .header-account,
+  .header-cart {
+    width: 40px;
+    height: 40px;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .header {
