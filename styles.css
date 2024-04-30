@@ -142,6 +142,7 @@ li {
 .footer {
   display: flex;
   justify-content: flex-end;
+  background-color: darkblue;
   align-items: flex-end;
   color: white;
   padding: 1em;
