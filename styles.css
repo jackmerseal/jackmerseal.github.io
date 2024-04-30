@@ -143,7 +143,6 @@ li {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  background-color: darkblue;
   color: white;
   padding: 1em;
 }
